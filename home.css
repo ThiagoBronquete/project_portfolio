@@ -1,0 +1,60 @@
+* {
+    font-family: "Merriweather Sans";
+    margin: 5px;
+    padding: 5px;
+}
+
+#user_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid green;
+    padding: 0;
+}
+
+body {
+    background-color:var(--body-bg-color);
+    color: var(--text-color)
+
+}
+
+#user_photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 10px;
+    width: 400px;
+    height: 350px;
+    border-radius: 10%;
+    background-color: var(--bg-cards);
+}
+
+#user_infos {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex-flow: column;
+    background-color: var(--bg-cards);
+    border-radius: 10%;
+    width: 400px;
+    height: 350px;
+    margin-top: 30px;
+}
+
+.infos{
+    position: absolute;
+    display: inline-block;
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
